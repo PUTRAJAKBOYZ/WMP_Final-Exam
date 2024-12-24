@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#2C2C2C">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="601dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/subjectsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnEnrollSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enrollment Summary"
+        android:backgroundTint="#0D47A1" />
+
+    <Button
+        android:id="@+id/btnEnroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enrollment"
+        android:backgroundTint="#0D47A1" />
+
+</LinearLayout>
